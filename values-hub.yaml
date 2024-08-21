@@ -54,6 +54,11 @@ clusterGroup:
       namespace: vault
       project: hub
       path: common/hashicorp-vault
+    kuadrant:
+      name: kuadrant
+      namespace: kuadrant
+      project: hub
+      path: charts/all/kuadrant
     golang-external-secrets:
       name: golang-external-secrets
       namespace: golang-external-secrets
